@@ -1,0 +1,7 @@
+run = "echo “herakles app”"
+
+[nix]
+channel = "stable-22_11"
+
+[deployment]
+run = ["sh", "-c", "echo “herakles app”"]
